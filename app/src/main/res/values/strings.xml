@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">USO DE SENSORES</string>
+
+    //STRING PARA LOS TAB
+    <string name="tabSensorProxi">Sensor de proximidad</string>
+    <string name="tabSensorAcelerometro">Sensor de acelerometro</string>
+    <string name="tabHome">Inicio</string>
+
+    //STRING TAB FRAGMENTO SENSOR DE PROXIMIDAD
+    <string name="sensorp">SENSOR DE PROXIMIDAD</string>
+
+    //STRING TAB FRAGMENTO SENSOR DE ACELEROMETRO
+    <string name="sensora">SENSOR DE ACELEROMETRO</string>
+
+    //STRING TAB FRAGMENTO INICIO
+    <string name="TITULOINICIO"> BIENVENIDO AL USO DE SENSORES ANDROID </string>
+
+    <string name="MENSAJEINICIO"> Hemos preparado dos opciones de sensores para ti,
+        para conocerlos ingresa a las opciones de la parte inferior de la pantalla. </string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
