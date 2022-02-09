@@ -10,6 +10,7 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout  "
         android:layout_width="match_parent"
         android:layout_height="107dp"
         android:backgroundTint="#71D5D5"
@@ -35,5 +36,14 @@
             android:layout_height="wrap_content"
             android:icon="@drawable/ic_velocimetro"
             android:text="@string/tabSensorAcelerometro" />
+
     </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewuno"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F1DEC3"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+    </androidx.viewpager.widget.ViewPager>
 </LinearLayout>
+

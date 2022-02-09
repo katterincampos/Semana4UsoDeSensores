@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#529AB1"
     android:backgroundTint="#18B4E3"
-    tools:context=".BlankFragment">
+    tools:context=".Controlador.BlankFragment">
 
     <TextView
         android:id="@+id/textView"
