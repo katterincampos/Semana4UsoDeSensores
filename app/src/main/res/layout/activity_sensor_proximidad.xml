@@ -4,23 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DCA4A4"
-    android:backgroundTint="#375DEA"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".SensorProximidad">
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/menu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#71D5D5"
-        app:tabIndicatorAnimationMode="elastic">
+        android:fitsSystemWindows="false"
+        app:tabIndicatorAnimationDuration="500">
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/Home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:clickable="false"
             android:icon="@drawable/ic_hogar_1"
             android:text="@string/tabHome" />
 
@@ -40,33 +38,20 @@
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bac"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#18A3E3">
+        android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/tvSensor"
-            android:layout_width="225dp"
-            android:layout_height="104dp"
-            android:text="@string/MENSAJEINICIO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sensorp"
             android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.448" />
+            app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="402dp"
-            android:layout_height="42dp"
-            android:text="@string/TITULOINICIO"
-            android:textAlignment="center"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.303" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </LinearLayout>
-
