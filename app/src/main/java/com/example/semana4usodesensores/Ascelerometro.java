@@ -139,5 +139,6 @@ carpeta "res"
          star();
          super.onResume();
      }
+
     }
 
